@@ -1,6 +1,14 @@
 # Reflection:
-# 1:
-# 2: 
+
+# 1: I would use .get() when a dictionary key might be missing and I want to
+# provide a default value instead of getting an error. I would use bracket
+# notation when I know the key exists and need its value. My rule of thumb
+# is to use .get() for optional information and brackets for required information.
+
+# 2:  This pattern reminds me of using a PivotTable in Excel because both can
+# group data by categories and calculate totals. Python can be more useful
+# for large datasets because it can process many records automatically
+# and repeat the same calculations without having to do them manually.
 
 print("--Exercise 1--")
 customer = {
